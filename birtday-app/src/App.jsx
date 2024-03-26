@@ -19,8 +19,8 @@ const App = () => {
     <main>
       <section className="container">
         <h3>{people.length} Birthdays today!</h3>
-        <List people={people}  removePerson={removePerson}/>
-        <button className="btn" onClick={removeAll}> remove all!</button>
+        <List people={people}  removePerson={removePerson}  />   
+        <button className="btn" onClick={removeAll}> remove all!</button> 
         <button className="btn" onClick={addEmAll} style={{ margin: "1rem"}}> Add em all!</button>
       </section>
     </main>
